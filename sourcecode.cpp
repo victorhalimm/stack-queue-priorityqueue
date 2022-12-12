@@ -67,6 +67,7 @@ void printList() {
     printf("\n");
 }
 
+//to check if the linked list element is the same as a sorted array
 int checkSorted(int* arrSorted, int numCount) {
     node* curr = head;
     for (int i = 0;i<numCount;i++) {
